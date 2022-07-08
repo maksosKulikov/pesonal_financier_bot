@@ -243,3 +243,4 @@
 2022-07-08 17:32:19,944 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Delete a button: Квартира
 2022-07-08 17:32:25,070 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
 2022-07-08 17:32:25,071 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-07-08 19:38:18,798 INFO r.k.f.Bot [main] Bot started!
