@@ -26,8 +26,8 @@ public class Bot extends TelegramLongPollingBot {
     private static final String PASSWORD = "mk11072002";
     private static final Map<String, String> getenv = System.getenv();
 
-    private final String BOT_NAME = "personal_financier1_bot";
-    private final String BOT_TOKEN = "5421479853:AAEJp7zJy2r8yOhR95oz_XtNmDQMzi3k7jw";
+    private final String BOT_NAME;
+    private final String BOT_TOKEN;
 
     public static Connection connection;
     public static String[] lastDelete = new String[2];
@@ -52,8 +52,10 @@ public class Bot extends TelegramLongPollingBot {
         }
     }
 
-    public Bot() {
-
+    public Bot(String botName, String botToken) {
+        super();
+        this.BOT_NAME = botName;
+        this.BOT_TOKEN = botToken;
     }
 
 
@@ -215,7 +217,7 @@ public class Bot extends TelegramLongPollingBot {
         logger.info("Bot started!");
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            botsApi.registerBot(new Bot());
+            botsApi.registerBot(new Bot(getenv.get("BOT_NAME"), getenv.get("BOT_TOKEN")));
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
