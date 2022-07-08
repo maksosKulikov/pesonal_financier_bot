@@ -1,0 +1,1 @@
+AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx: java -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 -cp ./target/classes:./target/dependency/ru.kulikov.first_bot.Bot

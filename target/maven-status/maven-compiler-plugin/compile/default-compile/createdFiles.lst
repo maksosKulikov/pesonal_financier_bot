@@ -1,0 +1,12 @@
+ru\kulikov\first_bot\service_classes\ServiceCommand.class
+ru\kulikov\first_bot\command_classes\HelpCommand.class
+ru\kulikov\first_bot\command_classes\DeleteCategory.class
+ru\kulikov\first_bot\service_classes\CheckCategory.class
+ru\kulikov\first_bot\command_classes\CancelDelete.class
+ru\kulikov\first_bot\Bot.class
+ru\kulikov\first_bot\service_classes\CreateCategory.class
+ru\kulikov\first_bot\command_classes\StartCommand.class
+ru\kulikov\first_bot\command_classes\ListExpenses.class
+ru\kulikov\first_bot\service_classes\MapUtil.class
+ru\kulikov\first_bot\service_classes\PressButton.class
+ru\kulikov\first_bot\service_classes\AddToCategory.class
