@@ -24,10 +24,6 @@ public class Bot extends TelegramLongPollingBot {
     private static final String URL = "jdbc:postgresql://localhost:5432/db_for_bot";
     private static final String USERNAME = "postgres";
     private static final String PASSWORD = "mk11072002";
-    private static final Map<String, String> getenv = System.getenv();
-
-    private final String BOT_NAME;
-    private final String BOT_TOKEN;
 
     public static Connection connection;
     public static String[] lastDelete = new String[2];
@@ -35,7 +31,7 @@ public class Bot extends TelegramLongPollingBot {
     public static Message messageForNewButtons;
     public static Long user_id;
 
-    private String[] not_command = new String[2];
+    private final String[] not_command = new String[2];
     private int old_local_sum = 0;
 
     static {
@@ -52,21 +48,19 @@ public class Bot extends TelegramLongPollingBot {
         }
     }
 
-    public Bot(String botName, String botToken) {
-        super();
-        this.BOT_NAME = botName;
-        this.BOT_TOKEN = botToken;
+    public Bot () {
+
     }
 
 
     @Override
     public String getBotUsername() {
-        return BOT_NAME;
+        return "personal_financier1_bot";
     }
 
     @Override
     public String getBotToken() {
-        return BOT_TOKEN;
+        return "5421479853:AAEJp7zJy2r8yOhR95oz_XtNmDQMzi3k7jw";
     }
 
     @Override
@@ -103,6 +97,13 @@ public class Bot extends TelegramLongPollingBot {
                     String[] textMessage = message.getText().split(" ");
                     not_command[0] = textMessage[0];
                     not_command[1] = textMessage[textMessage.length - 1];
+                    try {
+                        Integer.parseInt(not_command[1]);
+                    }
+                    catch (Exception e) {
+                        execute(ServiceCommand.sendAnswer(message, "Неправильный формат").build());
+                        return;
+                    }
                     for (int i = 1; i < textMessage.length - 1; i++) {
                         not_command[0] += " ";
                         not_command[0] += textMessage[i];
@@ -217,7 +218,7 @@ public class Bot extends TelegramLongPollingBot {
         logger.info("Bot started!");
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            botsApi.registerBot(new Bot(getenv.get("BOT_NAME"), getenv.get("BOT_TOKEN")));
+            botsApi.registerBot(new Bot());
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
