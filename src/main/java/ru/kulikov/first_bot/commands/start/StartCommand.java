@@ -1,4 +1,4 @@
-package ru.kulikov.first_bot.command_classes;
+package ru.kulikov.first_bot.commands.start;
 
 public class StartCommand {
     public static String start() {

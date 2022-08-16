@@ -1,2 +1,75 @@
-2022-07-12 21:55:24,653 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
-2022-07-12 21:55:24,906 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Хей
+2022-08-14 15:22:58,613 INFO r.k.f.Bot [main] Bot started!
+2022-08-14 15:24:09,193 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:24:09,195 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 15:24:17,711 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:24:17,712 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Подарок 565
+2022-08-14 15:24:17,717 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Create category : Подарок 565
+2022-08-14 15:24:21,871 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:24:21,872 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 15:24:29,895 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:24:29,896 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Др2 200
+2022-08-14 15:24:29,897 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Create category : Др2 200
+2022-08-14 15:24:32,535 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:24:32,536 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 15:26:34,134 INFO r.k.f.Bot [main] Bot started!
+2022-08-14 15:27:38,327 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:27:50,914 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Р
+2022-08-14 15:56:48,397 INFO r.k.f.Bot [main] Bot started!
+2022-08-14 15:57:20,385 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 15:57:20,386 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 16:20:39,250 INFO r.k.f.Bot [main] Bot started!
+2022-08-14 16:20:45,453 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:20:45,454 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 16:20:59,868 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:20:59,869 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Транспорт 35
+2022-08-14 16:20:59,946 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Add to category - Транспорт
+2022-08-14 16:21:02,939 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:02,939 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 16:21:12,978 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:12,978 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Каша - 100
+2022-08-14 16:21:12,980 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Create category : Каша - 100
+2022-08-14 16:21:15,857 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:15,857 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 16:21:20,158 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:20,159 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /delete_category
+2022-08-14 16:21:22,134 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:22,135 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Delete a button: Каша -
+2022-08-14 16:21:22,166 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:22,167 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Delete a button: Каша -
+2022-08-14 16:21:22,309 ERROR r.k.f.Bot [personal_financier1_bot Telegram Executor] Delete Button
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup query: [400] Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:53) ~[telegrambots-meta-6.1.0.jar:?]
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseSerializable(PartialBotApiMethod.java:43) ~[telegrambots-meta-6.1.0.jar:?]
+	at org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodSerializable.deserializeResponseFromPossibilities(BotApiMethodSerializable.java:31) ~[telegrambots-meta-6.1.0.jar:?]
+	at org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodSerializable.deserializeResponseMessageOrBoolean(BotApiMethodSerializable.java:24) ~[telegrambots-meta-6.1.0.jar:?]
+	at org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup.deserializeResponse(EditMessageReplyMarkup.java:72) ~[telegrambots-meta-6.1.0.jar:?]
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:1045) ~[telegrambots-6.1.0.jar:?]
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:64) ~[telegrambots-meta-6.1.0.jar:?]
+	at ru.kulikov.first_bot.Bot.makeDeleteButton(Bot.java:109) ~[classes/:?]
+	at ru.kulikov.first_bot.Bot.onUpdateReceived(Bot.java:71) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1510) ~[?:?]
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27) ~[telegrambots-meta-6.1.0.jar:?]
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317) ~[telegrambots-6.1.0.jar:?]
+2022-08-14 16:21:24,811 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:24,811 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /cancel_delete
+2022-08-14 16:21:27,221 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:27,221 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Delete a button: Каша -
+2022-08-14 16:21:30,837 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:30,837 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses
+2022-08-14 16:21:43,808 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:43,809 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Транспорт 325
+2022-08-14 16:21:43,884 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Add to category - Транспорт
+2022-08-14 16:21:44,069 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:44,070 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Развлечения 446
+2022-08-14 16:21:44,142 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Create category : Развлечения 446
+2022-08-14 16:21:44,387 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:44,388 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Кальян 200
+2022-08-14 16:21:44,452 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Create category : Кальян 200
+2022-08-14 16:21:44,752 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:44,752 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Алкоголь 260
+2022-08-14 16:21:44,816 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Create category : Алкоголь 260
+2022-08-14 16:21:45,075 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:45,075 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Processing message: Продукты 450
+2022-08-14 16:21:45,154 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Add to category - Продукты
+2022-08-14 16:21:49,600 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] New update!
+2022-08-14 16:21:49,600 INFO r.k.f.Bot [personal_financier1_bot Telegram Executor] Execution command: /list_expenses

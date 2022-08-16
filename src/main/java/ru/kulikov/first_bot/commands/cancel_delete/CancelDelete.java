@@ -1,4 +1,4 @@
-package ru.kulikov.first_bot.command_classes;
+package ru.kulikov.first_bot.commands.cancel_delete;
 
 import ru.kulikov.first_bot.Bot;
 import ru.kulikov.first_bot.service_classes.CreateCategory;

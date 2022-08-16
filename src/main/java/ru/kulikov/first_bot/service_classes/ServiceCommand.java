@@ -7,7 +7,7 @@ import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.commands.BotCommand;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
-import ru.kulikov.first_bot.command_classes.DeleteCategory;
+import ru.kulikov.first_bot.commands.delete_category.DeleteCategory;
 
 import java.util.List;
 
